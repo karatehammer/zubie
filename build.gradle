@@ -1,0 +1,8 @@
+group 'com.examples.automation'
+version '1.0-SNAPSHOT'
+
+test{
+    testLogging {
+        events 'started', 'passed','skipped','failed'
+    }
+}
