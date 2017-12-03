@@ -1,0 +1,20 @@
+import com.example.pages.GoogleHomePage
+import geb.spock.GebReportingSpec
+
+
+
+class GoogleHomePageSpec extends GebReportingSpec {
+
+    def "Navigate to the Google Home Page"() {
+
+        when:
+        to GoogleHomePage
+
+        then:
+        assert GoogleHomePage.searchBar.isDisplayed()
+    }
+
+
+
+
+}

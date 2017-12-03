@@ -1,12 +1,6 @@
 group 'com.examples.automation'
 version '1.0-SNAPSHOT'
 
-test{
-    testLogging {
-        events 'started', 'passed','skipped','failed'
-    }
-}
-
 apply plugin: "groovy"
 
 repositories {
@@ -56,4 +50,10 @@ dependencies {
     testCompile "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
     testCompile "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
     testCompile "org.seleniumhq.selenium:selenium-remote-driver:$seleniumRemoteDriver"
+}
+
+test {
+    testLogging {
+        events 'started', 'passed','skipped','failed'
+    }
 }
