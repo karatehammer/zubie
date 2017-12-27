@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver
 waiting {
 	timeout = 2
 }
+reportsDir = new File("build/reports")
 
 environments {
 
@@ -42,5 +43,5 @@ environments {
 }
 
 // To run the tests with all browsers just run “./gradlew test”
-
-baseUrl = "http://gebish.org"
+//
+//baseUrl = "http://gebish.org"
