@@ -1,3 +1,5 @@
+package com.example
+
 import com.example.pages.GoogleHomePage
 import geb.spock.GebReportingSpec
 
