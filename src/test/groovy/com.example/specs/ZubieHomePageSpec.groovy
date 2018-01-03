@@ -8,7 +8,7 @@ import org.junit.Test
 class ZubieHomePageSpec extends GebReportingSpec {
 
     @Test
-    def "Navigate to the Google Home Page"() {
+    def "Navigate to the Zubie Page"() {
 
         when:
         to ZubieHomePage

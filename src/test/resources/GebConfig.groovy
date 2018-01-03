@@ -22,7 +22,6 @@ environments {
 		def chromeDriver = new File('src/test/resources/chromedriver.exe')
 		System.setProperty('webdriver.chrome.driver', chromeDriver.absolutePath)
 		driver = { new ChromeDriver() }
-		driver = { new ChromeDriver() }
 	}
 
 	// run via “./gradlew chromeHeadlessTest”
