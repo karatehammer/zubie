@@ -1,0 +1,55 @@
+CMS:
+Mousewheel JS
+Theme Osmosis
+Plugins:
+Js_composer
+Easy FancyBox
+Popup Maker
+Jquery Smooth Scroll
+Font Awesome
+More Icons
+
+FontScript:
+Font Awesome
+Google Font API
+
+Javascript Graphics:
+TwitterEmoji
+
+OS:
+Ubuntu
+
+Advertising:
+AdRoll
+BingAds
+Facebook Pixel
+
+Javascript Frameworks:
+Modernizr 2.8.3
+React
+RequireJS
+jQuery 1.8.3
+Jquery Easing
+embed JS
+Is JS
+Async
+
+Analytics:
+Google Analytics UA
+Piwik
+
+Web Server:
+Nginx 1.4.6
+
+Programming:
+PHP 5.5.9
+
+Sales and Marketing:
+Hubspot
+Yoast SEO
+
+Tag Managers:
+Google Tag Manager
+
+
+

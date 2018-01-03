@@ -5,6 +5,7 @@
 */
 
 
+import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.firefox.FirefoxDriver
@@ -20,8 +21,12 @@ environments {
 	// See: http://code.google.com/p/selenium/wiki/ChromeDriver
 	chrome {
 		def chromeDriver = new File('src/test/resources/chromedriver.exe')
+        ChromeOptions options = new ChromeOptions()
+        options.addArguments("start-maximized")
 		System.setProperty('webdriver.chrome.driver', chromeDriver.absolutePath)
-		driver = { new ChromeDriver() }
+		def driverInstance = { new ChromeDriver(options) }
+        driverInstance.executeScript("")
+        WebDriver.resiz
 	}
 
 	// run via “./gradlew chromeHeadlessTest”

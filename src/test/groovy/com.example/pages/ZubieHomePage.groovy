@@ -11,6 +11,8 @@ class ZubieHomePage extends Page{
 
     static content = {
         //searchBar {$('id[lst-ib]')}
+        loginLink { $('a[title="zubie-blue"]')}
+
     }
 
 }
